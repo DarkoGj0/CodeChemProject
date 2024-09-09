@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using System;
@@ -20,6 +21,8 @@ namespace CodeChemSelenium.Tests
             driver.Manage().Window.Maximize();
             Thread.Sleep(2000);
             driver.FindElement(By.LinkText("MVP")).Click();
+            Thread.Sleep(2000);
+            ClassicAssert.AreEqual("MVP Development — CodeChem", driver.Title);
             Thread.Sleep(2000);
             driver.FindElement(By.XPath("//img[@alt='MVP Idea Validation Diary - A free Notion template that helps you validate your MVP idea | Product Hunt']")).Click();
             Thread.Sleep(2000);
