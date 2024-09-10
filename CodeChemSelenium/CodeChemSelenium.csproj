@@ -94,6 +94,7 @@
     <Compile Include="Tests\CassesFunctionality.cs" />
     <Compile Include="Tests\MVPFunctionality.cs" />
     <Compile Include="Tests\NavBar.cs" />
+    <Compile Include="Tests\ServicesFunctinality.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
