@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\AboutFunctionality.cs" />
     <Compile Include="Tests\ButtonContact.cs" />
     <Compile Include="Tests\CassesFunctionality.cs" />
     <Compile Include="Tests\HowweworkFunctioanlity.cs" />
