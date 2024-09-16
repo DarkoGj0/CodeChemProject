@@ -90,14 +90,21 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\AboutFunctionality.cs" />
+    <Compile Include="Tests\BlogFunctionality.cs" />
+    <Compile Include="Tests\ButtonContact.cs" />
+    <Compile Include="Tests\CareersFunctionality.cs" />
+    <Compile Include="Tests\CassesFunctionality.cs" />
+    <Compile Include="Tests\HowweworkFunctioanlity.cs" />
+    <Compile Include="Tests\MVPFunctionality.cs" />
+    <Compile Include="Tests\NavBar.cs" />
+    <Compile Include="Tests\ServicesFunctionality.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tests\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
